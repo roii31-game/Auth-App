@@ -17,10 +17,10 @@ import { Ionicons } from "@expo/vector-icons";
 
 import { Container, Item, Input } from "native-base";
 
-//AWS Amplify modular import
+// AWS Amplify modular import
 import Auth from "@aws-amplify/auth";
 
-//Load the app logo
+// Load the app logo
 const logo = require("./images/Triton Logo border.png");
 
 export default class SignInScreen extends React.Component {
@@ -55,9 +55,7 @@ export default class SignInScreen extends React.Component {
       [key]: value,
     });
   }
-
   // Sign in users with Auth
-
   async signIn() {
     const { username, password } = this.state;
     await Auth.signIn(username, password)
@@ -75,7 +73,6 @@ export default class SignInScreen extends React.Component {
         }
       });
   }
-
   render() {
     let { fadeOut, fadeIn, isHidden } = this.state;
     return (
@@ -160,7 +157,6 @@ export default class SignInScreen extends React.Component {
     );
   }
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

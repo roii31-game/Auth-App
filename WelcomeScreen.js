@@ -14,7 +14,7 @@ export default class WelcomeScreen extends React.Component {
         {/* App Logo */}
         <Image source={logo} style={{ width: 110.46, height: 117 }} />
         <TouchableOpacity
-          onPress={() => this.handleRounte("SignIn")}
+          onPress={() => this.handleRoute("SignIn")}
           style={styles.buttonStyle}
         >
           <Text style={styles.textStyle}>Sign In</Text>

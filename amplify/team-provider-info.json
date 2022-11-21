@@ -16,5 +16,23 @@
         "authappc1829fb6": {}
       }
     }
+  },
+  "roii": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authapp-roii-100244-authRole",
+      "UnauthRoleArn": "arn:aws:iam::657187015822:role/amplify-authapp-roii-100244-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::657187015822:role/amplify-authapp-roii-100244-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-authapp-roii-100244-deployment",
+      "UnauthRoleName": "amplify-authapp-roii-100244-unauthRole",
+      "StackName": "amplify-authapp-roii-100244",
+      "StackId": "arn:aws:cloudformation:us-east-1:657187015822:stack/amplify-authapp-roii-100244/f0314030-69b5-11ed-9cf4-12b026f07697",
+      "AmplifyAppId": "d3ttr0napou9li"
+    },
+    "categories": {
+      "auth": {
+        "authappc1829fb6": {}
+      }
+    }
   }
 }
