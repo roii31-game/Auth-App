@@ -23,7 +23,10 @@ export default class WelcomeScreen extends React.Component {
           onPress={() => this.handleRoute("ForgetPassword")}
           style={styles.buttonStyle}
         >
-          <Text style={styles.textStyle}>Forget password ?</Text>
+          <Text style={styles.textStyle}>
+            {" "}
+            I have forgotten my passwordForget password ?
+          </Text>
         </TouchableOpacity>
       </View>
     );
